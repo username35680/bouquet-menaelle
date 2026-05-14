@@ -1,0 +1,27 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #e0f2fe 0%, #ffffff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Les fleurs partent du bas */
+}
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #3e2723; /* Marron terre */
+  z-index: 10;
+}
+
+/* On adapte la taille du texte des messages pour mobile */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem !important;
+    top: 5% !important;
+  }
+}
