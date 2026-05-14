@@ -8,11 +8,12 @@ function App() {
   const [butterflies, setButterflies] = useState([]);
   const messages = [
     "Sois fière de toi",
-    "Rayonnante",
-    "Une belle âme",
+    "Dofus",
+    "Blue Lock",
     "Ménaelle ✨",
-    "Ton sourire...",
-    "Unique en ton genre",
+    "Le Sylvestre",
+    "Teckel",
+    "Tandem"
   ];
 
   useEffect(() => {
